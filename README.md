@@ -1,4 +1,4 @@
-# task_6
+
 # Myra's Psych-IT Hub
 
 Welcome to **Myra's Psych-IT Hub**, your gateway to the fascinating intersection of psychology and information technology!
