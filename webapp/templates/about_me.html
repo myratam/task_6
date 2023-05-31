@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>about_me</title>
+	<style>
+		.heading {
+	text-align: center;
+    	}
+    </style>	
+</head>
+
+<header>
+	<div class="heading"> 
+    	<h1>Meet Myra!</h1>
+	</div>
+	<p>Learn more about who I am and my passions by navigating through these links:</p>
+	<nav>
+		<ul>
+			<li style="margin-bottom: 10px;"><a href="#about-me">About Me</a></li>
+			<li style="margin-bottom: 10px;"><a href="#my-family">My Family</a></li>
+			<li style="margin-bottom: 10px;"><a href="#my-education">My Education</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	
+	<section id="about-me">
+		<h2>About Me</h2>
+		<p>I am a dedicated and passionate individual who believes in working hard and achieving my goals. I have a strong interest in psychology and how it can be used to help people live better lives. I am also pursuing a degree in IT to 
+			expand my skillset and be able to help others with technology. In addition to my passion for psychology and IT, I am also an advocate for personal growth and self-improvement. I firmly believe in the power of continuous learning 
+			and strive to expand my knowledge and skills in various areas. I am always seeking new opportunities to challenge myself and embrace novel experiences that broaden my horizons.</p>
+			
+		<p>	Through my studies in psychology, I have developed a deep understanding of human behavior, cognition, and emotions. I am particularly fascinated by the ways in which individuals perceive the world and interact with others, 
+			and I am driven by a genuine desire to help people navigate life's challenges and find fulfillment. I aspire to apply my psychological knowledge in a practical manner, whether through counseling, coaching, or developing 
+			innovative interventions that promote mental well-being.</p>
+			
+		<p>	Simultaneously, my pursuit of a degree in IT has exposed me to the rapidly evolving world of technology. I am captivated by the potential of digital advancements to transform lives and improve society. With my expanding skillset, 
+			I aim to bridge the gap between psychology and technology, exploring how these fields can collaborate to create innovative solutions for mental health, human interaction, and overall well-being. I am excited to combine my expertise 
+			in psychology with my technical proficiency to develop user-friendly applications and digital platforms that empower individuals to lead healthier and more fulfilling lives.</p>
+			
+		<p>	Overall, my unwavering dedication, coupled with my passion for psychology and IT, fuels my drive to make a positive impact in people's lives. I am committed to utilizing my unique blend of knowledge and skills to contribute to the 
+			well-being of individuals, the advancement of technology, and the betterment of society as a whole.</p>
+	</section>
+
+	<section id="my-family">
+		<h2>My Family</h2>
+		<p>My family is the cornerstone of my life, providing me with unwavering love, support, and strength. At the center of it all is my amazing husband, Tommy, whose steadfast presence and unwavering support have been instrumental in 
+			my personal and professional journey. He is not only my rock but also my best friend, constantly encouraging me to pursue my passions and helping me overcome any obstacles that come my way.</p>
+			
+		<p>	Our two sons, Gabriel and Jeriah, bring immeasurable joy and laughter into our lives. They are a constant source of inspiration, reminding me of the beauty of innocence and the importance of cherishing every precious moment. With their 
+			boundless energy and curiosity, they keep me on my toes and remind me to embrace the wonders of the world around us.</p>
+			
+		<p>	Together, as a family, we thrive on adventure and exploration. South Africa, with its diverse landscapes and rich cultural heritage, provides us with endless opportunities to create cherished memories. From breathtaking safaris to 
+			captivating historical sites, we relish in immersing ourselves in the beauty and wonder of this remarkable country. Exploring together not only strengthens our bond but also allows us to appreciate the richness of the world we live in.</p>
+	</section>
+
+	<section id="my-education">
+		<h2>My Education</h2>
+		<p>I am currently pursuing a degree in IT and working towards becoming a skilled software developer. In addition, I have a Master's degree in Psychology and am a licensed psychologist, helping individuals and families work through their challenges.</p>
+	</section>
+
+	<nav>
+		<p>Explore more of our website by navigating to the following pages:</p>
+		<ul>
+			<li style="margin-bottom: 10px;"><a href="{% url 'index' %}">Home</a></li>
+			<li style="margin-bottom: 10px;"><a href="{% url 'blog_home' %}">Blog</a></li>
+			<li style="margin-bottom: 10px;"><a href="{% url 'webapp:dashboard' %}">User Dashboard</a></li>
+			<li style="margin-bottom: 10px;"><a href="{% url 'webapp:contact' %}">Contact Me</a></li> 
+		</ul>
+	</nav>
+</main>
+
+<footer>
+	<p>&copy; 2023 Myra. All rights reserved.</p>
+</footer>
+</html>

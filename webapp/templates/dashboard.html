@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dashboard</title>
+
+    <style>
+		.heading {
+	text-align: center;
+    	}
+    </style>
+
+</head>
+
+<body>
+	<header>
+		<div class="welcome-message">
+			<div class="heading">
+                <h1>Myra's Psych-IT Hub</h1>
+            </div>
+            <h2>User Dashboard</h2>
+			<p>Myra is a psychologist and IT student with a passion for blogging about her experiences. On this website, 
+               she shares her insights, stories, and thoughts on various topics related to psychology and technology.</p>
+		</div>
+	
+        <p>Get ready to explore the full potential of Myra's platform: </p>
+		<nav>
+			<ul>
+				<li style="margin-bottom: 10px;"><a href="{% url 'index' %}">View the home page</a></li>
+                <li style="margin-bottom: 10px;"><a href="{% url 'webapp:about_me' %}">Learn more about Myra</a></li>
+                <li style="margin-bottom: 10px;"><a href="{% url 'blog_home' %}">Read Myra's blog</a></li>
+				<li style="margin-bottom: 10px;"><a href="{% url 'webapp:contact' %}">How to Contact me</a></li>	
+                <li style="margin-bottom: 10px;"><a href="{% url 'logout' %}">Logout</a></li>
+			</ul>
+		</nav>
+    </header>
+</body>
+
+<footer>
+	<p>&copy; 2023 Myra. All rights reserved.</p>
+</footer>
+</html>

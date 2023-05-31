@@ -1,0 +1,12 @@
+{% extends "header.html" %}
+
+{% block content %}
+<h3>{{ post.title }}</h3>
+<h6>on {{ post.date }}</h6>
+<div class="container">
+    {{ post.body|safe|linebreaks}}
+</div>
+<br><br>
+<a href="{% url 'blog_home' %}">Back to Blog Home</a>
+{% endblock %}
+

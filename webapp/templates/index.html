@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title> 
+	<style>
+		.heading {
+	text-align: center;
+    	}
+    </style>	
+</head>
+
+<body>
+	<header>
+		<div class="heading">
+			<h1>Myra's Psych-IT Hub</h1>
+		</div>
+
+		<p style="line-height: 1.5; margin-bottom: 20px;">Welcome to Myra's Psych-IT Hub, your gateway to the fascinating intersection of psychology and information technology!</p>
+
+		<nav>
+			<p>Explore more of our website by navigating to the following pages:</p>
+			<ul>
+				<li style="margin-bottom: 10px;"><a href="about_me">About Me</a></li>
+				<li style="margin-bottom: 10px;"><a href="blog">Blog</a></li>
+				<li style="margin-bottom: 10px;"><a href="dashboard">User Dashboard</a></li>
+				<li style="margin-bottom: 10px;"><a href="contact">Contact Me</a></li>
+				<li style="margin-bottom: 10px;"><a href="{% url 'login:login' %}">Login</a></li>
+				<li style="margin-bottom: 10px;"><a href="{% url 'register:register' %}">Register Account</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Hi, I'm Myra!</h2>
+		<p style="line-height: 1.5; margin-bottom: 20px;">I am a hardworking woman living in South Africa. I am a wife to Tommy, mother of Gabriel and Jeriah, IT student, and psychologist.</p>
+		<p style="line-height: 1.5; margin-bottom: 20px;"> As an IT student with a deep interest in psychology, Myra is dedicated to exploring the ways in which technology impacts 
+			our mental well-being. Whether you're seeking insights into the psychological effects of social media, guidance on managing 
+			digital distractions, or curious about the latest developments in online therapy platforms, Myra is here to provide you with 
+			valuable perspectives.</p>
+
+		<p style="line-height: 1.5; margin-bottom: 20px;">At Myra's Psych-IT Hub, we recognize the growing importance of understanding the psychological implications of technology. 
+			With the rapid advancements in the digital realm, it is crucial to navigate the ever-evolving landscape mindfully. Myra combines 
+			her passion for psychology with her IT expertise to offer you practical advice, research-backed strategies, and thought-provoking 
+			content that sheds light on the relationship between psychology and technology.</p>
+			
+		<p style="line-height: 1.5; margin-bottom: 20px;">Embark on a journey of exploration as you dive into our collection of articles, blog posts, and resources that cover a wide range 
+			of Psych-IT topics. Discover how technology can be harnessed to enhance well-being, productivity, and personal growth, while also 
+			being aware of potential pitfalls. Join Myra, the IT student with a keen interest in psychology, and let's navigate the fascinating 
+			realm of Psych-IT together!.</p>
+	</main>
+</body>
+
+<footer>
+	<p>&copy; 2023 Myra. All rights reserved.</p>
+</footer>
+</html>

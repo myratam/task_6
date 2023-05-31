@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Myra's Blog</title>
+
+        <style>
+          .heading {
+        text-align: center;
+            }
+          </style>
+    </head>
+    <body>
+        <h1>Welcome to Myra's Psych-IT Hub Blog</h1>
+        <p style="line-height: 1.5; margin-bottom: 20px;">Here you will find posts about my experiences as an IT student and psychologist. I delve into captivating topics, 
+           share insightful stories, and provide valuable information to engage and inspire the readers. From thought-provoking 
+           articles to practical tips, this blog covers a wide range of subjects on psychology, technology, and personal growth. 
+           Whether you're seeking inspiration, knowledge, or simply an enjoyable read, Myra's blog is your gateway to a world of 
+           captivating content.</p>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        <nav>
+            <ul>
+                <li style="margin-bottom: 10px;"><a href="{% url 'logout' %}">Logout</a></li> 
+            </ul>
+        </nav>
+    </body>
+    <footer>
+        <p>&copy; 2023 Myra. All rights reserved.</p>
+     </footer>
+</html>
